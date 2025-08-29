@@ -7,7 +7,7 @@ public class Menu {
 
         opcao = 0;
 
-        while(opcao != 4) {
+        while (opcao != 4) {
             System.out.println("Menu de Opcoes!");
             System.out.println("1 - Somar");
             System.out.println("2 - Multiplicar");
