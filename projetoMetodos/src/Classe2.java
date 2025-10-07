@@ -23,5 +23,7 @@ public class Classe2 {
 
         System.out.println("O ano de nascimento de " + pessoa1.nome + " é " + pessoa1.calcularAnoNascimento(ano));
 
+        System.out.println(pessoa1.seApresentar());
+
     }
 }

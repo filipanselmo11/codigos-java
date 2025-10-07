@@ -10,8 +10,9 @@ public class Pessoa {
     //     this.idade = idade;
     //     this.endereco = endereco;
     // }
+    //Construtor com parametros
 
-    public Pessoa() {}
+    public Pessoa() {}//Construtor Sem parametros
 
     public void mostrarInformacoes() {
         System.out.println("Nome: " + nome);
@@ -21,5 +22,9 @@ public class Pessoa {
 
     public int calcularAnoNascimento(int anoAtual) {
         return anoAtual - idade;
+    }
+
+    public String seApresentar() {
+        return "Olá meu nome é " + this.nome + " tenho " + this.idade + " anos de idade. É um prazer";
     }
 }
