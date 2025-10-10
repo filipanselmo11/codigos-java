@@ -15,7 +15,7 @@ public class Questao66 {
         sc.close();
 
         nq.mostrarQuadrado(y);
-        System.out.println("O quadrado do número é: " + nq.retornarQuadrado(y));//Forma 1, chamar o método direto no println
+        System.out.println("O quadrado do número é: " + nq.retornarQuadrado(y));//Forma 1, chamar o método dentro no println
         //Forma 2
         //int quadrado = nq.retornarQuadrado(y), armazenar em uma variavel e depois printar
         //System.out.println("O quadrado do número é: " + quadrado);
