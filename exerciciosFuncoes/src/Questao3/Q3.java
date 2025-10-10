@@ -6,7 +6,11 @@ import java.util.Scanner;
 
 public class Q3 {
     
-    public static void somarDoisNumeros(int a, int b) {
+    public static void somarDoisNumeros(int a, int b) { //Quando eu quero fazer um método outro estático(static)
+                                                        //Ele tem que ser feito fora do método main
+                                                        //Por que o main ele vai ficar responsável 
+                                                        //por chamar esse método e executar outros códigos
+                                                        //Que estiverem dentro do main
         int soma = a + b;
         System.out.println("A soma dos dois é: " + soma);
     }

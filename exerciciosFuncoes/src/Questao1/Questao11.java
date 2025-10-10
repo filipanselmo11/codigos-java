@@ -5,7 +5,7 @@ package Questao1;
 public class Questao11 {
     
     public static void main(String[] args) {
-        olaMundo ola = new olaMundo();
+        OlaMundo ola = new OlaMundo();
         ola.imprimirOlaMundo();
     }
 }
